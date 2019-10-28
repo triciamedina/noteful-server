@@ -1,6 +1,6 @@
 # Noteful server
 
-An API for the Bookmarks client supporting GET, POST, DELETE, PATCH.
+An API for the Noteful client supporting GET, POST, DELETE, PATCH.
 
 ## Set up
 
