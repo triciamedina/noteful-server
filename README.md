@@ -1,17 +1,15 @@
-# Express Boilerplate!
+# Noteful server
 
-This is a boilerplate project used for starting new projects!
+An API for the Bookmarks client supporting GET, POST, DELETE, PATCH.
 
 ## Set up
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+Complete the following steps to start noteful-server:
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECT-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+1. Install the node dependencies `npm install`
+2. Run database migrations `npm run migrate`
+3. Seed database with dummy data `psql -U dunder_mifflin -d blogful -f ./seeds/seed.blogful_articles.sql`
+4. Start nodemon for the application `npm run dev`
 
 ## Scripts
 
