@@ -8,8 +8,9 @@ Complete the following steps to start noteful-server:
 
 1. Install the node dependencies `npm install`
 2. Run database migrations `npm run migrate`
-3. Seed database with dummy data `psql -U dunder_mifflin -d blogful -f ./seeds/seed.blogful_articles.sql`
-4. Start nodemon for the application `npm run dev`
+3. Seed database with dummy folders `psql -U dunder_mifflin -d noteful -f ./seeds/seed.noteful_folders.sql`
+4. Seed database with dummy notes `psql -U dunder_mifflin -d noteful -f ./seeds/seed.noteful_notes.sql`
+5. Start nodemon for the application `npm run dev`
 
 ## Scripts
 
